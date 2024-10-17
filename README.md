@@ -11,6 +11,32 @@ Note: the framework of the pipeline is from SIGIR 2023 paper "Exploiting Simulat
 
 ## How to Run
 
+Clone the repository.
+
+Install all necessary libraries
+
+```
+pip install -r requirements.txt
+```
+
+Download CAsT benchmark and other necessary artifacts like a subset of the indexed document collection.
+
+```
+bash setup.sh
+```
+
+Then set your openai API key. It should look something like:
+```
+# API Key for GPT3
+OPENAI_API_KEY="api_key"
+```
+
+Run.
+
+```
+python main.py
+```
+
 
 
 
