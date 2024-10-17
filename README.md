@@ -39,7 +39,14 @@ python main.py
 
 If you want to customize your own parameters, pls add a new json into the configs file.
 
-If you want to adjust patience, you can go to the 
+If you want to adjust patience, you can go to src/base_module/Pipelines.py, set something like:
+
+
+```
+
+```
+
+
 
 
 
