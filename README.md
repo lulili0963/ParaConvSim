@@ -43,7 +43,7 @@ If you want to adjust patience, you can go to src/base_module/Pipelines.py, set 
 
 
 ```
-
+max_feedback_rounds=1, min_ndcg=1.0
 ```
 
 
