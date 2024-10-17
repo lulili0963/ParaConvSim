@@ -31,12 +31,15 @@ Then set your openai API key. It should look something like:
 OPENAI_API_KEY="api_key"
 ```
 
-Run.
+Run. configs file contain all the utilized parameters to controll the level of cooperativeness and politness.
 
 ```
 python main.py
 ```
 
+If you want to customize your own parameters, pls add a new json into the configs file.
+
+If you want to adjust patience, you can go to the 
 
 
 
