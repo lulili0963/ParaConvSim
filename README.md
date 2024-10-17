@@ -23,6 +23,8 @@ Download CAsT benchmark and other necessary artifacts like a subset of the index
 
 ```
 bash setup.sh
+
+python toy_indexes.py
 ```
 
 Then set your openai API key. It should look something like:
