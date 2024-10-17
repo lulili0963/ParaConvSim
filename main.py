@@ -12,12 +12,12 @@ from pathlib import Path
 from tqdm import tqdm
 
 
-for p in os.listdir("4extremerepeated"):
+for p in os.listdir("configs"):
     if os.path.splitext(p)[1] == ".json":
         print(p)
         print(f"4extremerepeated/{p}")
         run_name = "semantic_cq"
-        base_path = f"data/f_moreround_fewshot_combinedex_round1_4extremerepeated/para_generated_conversations_{os.path.splitext(p)[0]}"  # noqa
+        base_path = f"data/para_generated_conversations_{os.path.splitext(p)[0]}"  # noqa
         output_path = f"{base_path}/{run_name}/transcripts"
 
         data_generator = CAsTY4DataGenerator(
@@ -34,7 +34,7 @@ for p in os.listdir("4extremerepeated"):
                 ),
                 T5Ranker(),
                 BARTResponseGenerator(),
-                GPT3FeedbackProvider(f"4extremerepeated/{p}", "instructions.json"),  # noqa
+                GPT3FeedbackProvider(f"configs/{p}", "instructions.json"),  # noqa
             ]
         )
 
