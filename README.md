@@ -29,7 +29,7 @@ python toy_indexes.py
 
 Then set your openai API key. It should look something like:
 ```
-# API Key for GPT3
+# API Key for GPT3.5
 OPENAI_API_KEY="api_key"
 ```
 
