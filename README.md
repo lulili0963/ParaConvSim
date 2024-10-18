@@ -11,7 +11,7 @@ Note: the framework of the pipeline is from SIGIR 2023 paper "Exploiting Simulat
 
 ## How to Run
 
-Clone the repository.
+Clone the repository. We test it on Google Colab.
 
 Install all necessary libraries
 
